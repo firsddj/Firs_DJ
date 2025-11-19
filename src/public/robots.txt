@@ -1,0 +1,24 @@
+# robots.txt dla DJ Landing Page
+
+User-agent: *
+Allow: /
+
+# Blokuj boty które nie są wyszukiwarkami
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Pozwól na crawlowanie zasobów dla Google
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+# Sitemap
+Sitemap: https://firsdj.pl/sitemap.xml
