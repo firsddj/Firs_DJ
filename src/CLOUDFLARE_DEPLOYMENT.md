@@ -3,6 +3,34 @@
 
 ---
 
+## ⚠️ WAŻNE: Przed push do GitHub!
+
+Upewnij się, że masz wszystkie wymagane pliki:
+
+```bash
+# Sprawdź czy masz te pliki:
+ls -la
+
+# Powinny być:
+# ✅ index.html
+# ✅ package.json
+# ✅ vite.config.ts
+# ✅ tsconfig.json
+# ✅ tsconfig.node.json
+# ✅ src/main.tsx
+# ✅ App.tsx
+# ✅ components/
+# ✅ public/_headers
+# ✅ public/_redirects
+# ✅ public/robots.txt
+# ✅ public/sitemap.xml
+# ✅ styles/globals.css
+```
+
+Jeśli czegoś brakuje, wszystkie pliki powinny być już w projekcie po ostatnich poprawkach!
+
+---
+
 ## KROK 1: Przygotowanie repozytorium Git
 
 ### Utwórz repozytorium na GitHub
@@ -11,7 +39,7 @@
 ```bash
 git init
 git add .
-git commit -m "Initial commit - DJ Landing Page firsdj.pl"
+git commit -m "Initial commit - DJ Landing Page firsdj.pl with proper Vite setup"
 ```
 
 2. **Utwórz nowe repozytorium na GitHub:**
@@ -79,6 +107,8 @@ npm run build
 ```
 dist
 ```
+
+⚠️ **WAŻNE:** Jeśli masz błąd "Output directory 'dist' not found", zmień na `build`
 
 **Root directory:** (zostaw puste)
 
