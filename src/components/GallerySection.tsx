@@ -3,6 +3,7 @@ import { Camera } from "lucide-react";
 import { ScrollReveal } from "./ScrollReveal";
 import corporateEventImage from "figma:asset/954ef6512f7cde4d5cf9368bf687d7630febbfa9.png";
 import festivalCrowdImage from "figma:asset/2abbc85659af46cb55840a3994aeda5ccfb3499b.png";
+import weddingImage from "figma:asset/d5465a6f1b27fe2288972b06adbb29e156289eb2.png";
 
 const galleryImages = [
   {
@@ -11,7 +12,7 @@ const galleryImages = [
     alt: "Impreza studniówkowa z DJ - kolorowe oświetlenie i parkiet taneczny"
   },
   {
-    src: "https://images.unsplash.com/photo-1714972383570-44ddc9738355?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwcGFydHklMjBkYW5jZXxlbnwxfHx8fDE3NjM1NzkzNzN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    src: weddingImage,
     title: "Wesele",
     alt: "Oprawa muzyczna wesela - DJ na ślubie w województwie dolnośląskim"
   },

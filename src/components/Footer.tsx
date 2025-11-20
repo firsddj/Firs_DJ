@@ -12,7 +12,7 @@ export function Footer() {
                 <Music className="w-6 h-6 text-white" />
               </div>
               <span className="text-xl bg-gradient-to-r from-[var(--color-magenta)] to-blue-400 bg-clip-text text-transparent">
-                Firs_DJ
+                firs_dj
               </span>
             </div>
             <p className="text-white/60 text-sm" style={{ lineHeight: "1.5" }}>
@@ -62,7 +62,7 @@ export function Footer() {
         {/* Bottom */}
         <div className="pt-6 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-3 text-center md:text-left">
           <p className="text-sm text-white/60">
-            © 2025 Firs_DJ. Wszystkie prawa zastrzeżone.
+            © 2025 firs_dj. Wszystkie prawa zastrzeżone.
           </p>
           <p className="text-sm text-white/60 flex items-center gap-1.5">
             Made with <Heart className="w-4 h-4 text-[var(--color-magenta)] fill-[var(--color-magenta)]" /> for music lovers
