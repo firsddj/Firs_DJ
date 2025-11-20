@@ -10,7 +10,7 @@ export function HeroSection() {
   };
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pb-32 pt-20 w-full">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pb-32 pt-32 w-full">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <ImageWithFallback

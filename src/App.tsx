@@ -4,6 +4,7 @@ import { ServicesSection } from "./components/ServicesSection";
 import { AboutSection } from "./components/AboutSection";
 import { GallerySection } from "./components/GallerySection";
 import { Footer } from "./components/Footer";
+import { FloatingButton } from "./components/FloatingButton";
 import { useEffect } from "react";
 
 export default function App() {
@@ -92,6 +93,7 @@ export default function App() {
       <AboutSection />
       <GallerySection />
       <Footer />
+      <FloatingButton />
     </div>
   );
 }

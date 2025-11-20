@@ -2,7 +2,7 @@ import { Music, Heart } from "lucide-react";
 
 export function Footer() {
   return (
-    <footer className="w-full bg-black border-t border-white/10 py-16">
+    <footer id="contact" className="w-full bg-black border-t border-white/10 py-16">
       <div className="w-full max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10" style={{ marginBottom: "20px" }}>
           {/* Brand */}
